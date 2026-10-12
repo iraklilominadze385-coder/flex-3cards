@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 5px 0 15px 15px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 15px 15px;
+  font-size: x-large;
+}
+
+section {
+  margin-top: 30px;
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.casino {
+  display: flex;
+  flex-direction: column;
+  background-color: brown;
+  border-radius: 15px;
+  border: 2px solid black;
+  gap: 10px;
+  text-align: center;
+  h2 {
+    padding: 5px;
+    font-size: 36px;
+  }
+  p {
+    font-size: 22px;
+  }
+  button {
+    width: fit-content;
+    align-self: center;
+    padding: 5px;
+    font-size: 22px;
+    margin: 70px 0 20px 0;
+    border-radius: 15px;
+  }
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: coral;
+  border-radius: 15px;
+  border: 2px solid black;
+  text-align: center;
+  h2 {
+    padding: 5px;
+    font-size: 36px;
+  }
+  p {
+    font-size: 22px;
+  }
+  button {
+    align-self: center;
+    padding: 5px;
+    width: fit-content;
+    font-size: 22px;
+    margin: 70px 0 20px 0;
+    border-radius: 15px;
+  }
+}
+
+.repeat {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: darkcyan;
+  border-radius: 15px;
+  border: 2px solid black;
+  text-align: center;
+  h2 {
+    padding: 5px;
+    font-size: 36px;
+  }
+  p {
+    font-size: 22px;
+  }
+  button {
+    width: fit-content;
+    align-self: center;
+    padding: 5px;
+    font-size: 22px;
+    margin: 70px 0 20px 0;
+    border-radius: 15px;
+  }
+}
